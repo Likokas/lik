@@ -1,0 +1,195 @@
+.container{
+    width: 100%;
+    background-color: white;
+    min-height: 100%;
+}
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: white;
+}
+.header{
+    padding: 10px;
+    background-color: silver;
+    width: 100%;
+
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 100px;   
+}
+.header a{
+    text-decoration: none;
+    color : white
+    
+}
+.header a:hover{
+    color: blue; 
+} 
+.hero{
+    height: 1000px;
+    background-color: white;
+    
+}
+.Profile{
+    margin-top: -30px;
+    width: 30%;
+    float: left;
+
+}
+.content h2{
+   font-size: 40px;
+}
+.footer{
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: silver;
+  text-align: center;
+  clear: both;
+
+
+  
+
+}
+.footer img{
+    margin-right: 35px;
+    
+   
+}
+.content .aboutme{
+    font-size: 20px;
+}
+/*  CONTACT SEBELAH SINI */
+
+.fedbck{
+    text-align: center;
+    font-size: 40px ;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: silver;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+
+  /* Gallery */
+
+  .check h2{
+      font-weight: bold;
+      font-size: 35px;
+      text-align: center;
+  }
+
+.album{
+    width: 100%;
+    margin-left: 5vw;
+    columns: 3;
+    column-gap: 2vw;
+    
+  }
+.check img{
+    width: 27.5vw;
+    padding-bottom: 4vw;
+    display: inline-block;
+  }
+
+
+  /* Project nihh */
+
+.project img{
+    width: 25%;
+    float: left;
+    
+}
+.project h2{
+    font-size: 40px;
+    
+}
+.project p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+}
+.projectAP img{
+    margin-top: 0px;
+    float: left;
+    margin-left: 0px;
+    width: 25%;
+
+   
+}
+.projectAP h2{
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: ;350px;
+}
+
+.projectreso img {
+    width: 25%;
+    float: left;
+}
+.projectreso h2{
+    font-size: 35;
+    margin-top: 100px;
+}
+
+
+/* Interest gue */
+
+.dota2 img{
+    width: 20%;
+    float: left;
+}
+.dota2 h2{
+    margin-left: 25px;
+    font-size: 25;
+}
+.dota2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    text-align: justify;
+}
+
+#more {display: none;}
+
+.theinternational img{
+    width: 20%;
+    float: right;
+    margin-top: 20px;
+}
+.theinternational h2{
+    font-size: 25;
+}
+.theinternational p{
+    text-align: justify;
+    font-size: 20;
+    
+}
+
+
+
+
+
